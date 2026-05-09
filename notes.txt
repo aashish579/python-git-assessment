@@ -1,0 +1,1 @@
+These are temporary notes for the Git stash task.
