@@ -1,5 +1,8 @@
 # app.py
 
+APP_VERSION = "1.0.0"
+
+
 def greet_user(name):
     return f"Hello, {name}! Welcome to the Git and GitHub assessment."
 
@@ -23,6 +26,8 @@ def divide_numbers(a, b):
 
 
 def main():
+    print(f"App Version: {APP_VERSION}")
+
     user_name = input("Enter your name: ")
     message = greet_user(user_name)
     print(message)
